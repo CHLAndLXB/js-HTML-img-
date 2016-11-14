@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE8F36F81DAE30F4001B1452 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8F36F71DAE30F4001B1452 /* main.m */; };
+		EE8F36FB1DAE30F4001B1452 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8F36FA1DAE30F4001B1452 /* AppDelegate.m */; };
+		EE8F36FE1DAE30F4001B1452 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8F36FD1DAE30F4001B1452 /* ViewController.m */; };
+		EE8F37011DAE30F4001B1452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8F36FF1DAE30F4001B1452 /* Main.storyboard */; };
+		EE8F37031DAE30F4001B1452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8F37021DAE30F4001B1452 /* Assets.xcassets */; };
+		EE8F37061DAE30F4001B1452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8F37041DAE30F4001B1452 /* LaunchScreen.storyboard */; };
+		EE8F37111DAE30F4001B1452 /* js___html____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8F37101DAE30F4001B1452 /* js___html____Tests.m */; };
+		EE8F371C1DAE30F4001B1452 /* js___html____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8F371B1DAE30F4001B1452 /* js___html____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE8F370D1DAE30F4001B1452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE8F36EB1DAE30F4001B1452 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8F36F21DAE30F4001B1452;
+			remoteInfo = "js 修改html图片大小";
+		};
+		EE8F37181DAE30F4001B1452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE8F36EB1DAE30F4001B1452 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8F36F21DAE30F4001B1452;
+			remoteInfo = "js 修改html图片大小";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE8F36F31DAE30F4001B1452 /* js 修改html图片大小.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "js 修改html图片大小.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8F36F71DAE30F4001B1452 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE8F36F91DAE30F4001B1452 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE8F36FA1DAE30F4001B1452 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE8F36FC1DAE30F4001B1452 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE8F36FD1DAE30F4001B1452 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE8F37001DAE30F4001B1452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE8F37021DAE30F4001B1452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE8F37051DAE30F4001B1452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE8F37071DAE30F4001B1452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8F370C1DAE30F4001B1452 /* js 修改html图片大小Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "js 修改html图片大小Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8F37101DAE30F4001B1452 /* js___html____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "js___html____Tests.m"; sourceTree = "<group>"; };
+		EE8F37121DAE30F4001B1452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8F37171DAE30F4001B1452 /* js 修改html图片大小UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "js 修改html图片大小UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8F371B1DAE30F4001B1452 /* js___html____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "js___html____UITests.m"; sourceTree = "<group>"; };
+		EE8F371D1DAE30F4001B1452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE8F36F01DAE30F4001B1452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8F37091DAE30F4001B1452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8F37141DAE30F4001B1452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE8F36EA1DAE30F4001B1452 = {
+			isa = PBXGroup;
+			children = (
+				EE8F36F51DAE30F4001B1452 /* js 修改html图片大小 */,
+				EE8F370F1DAE30F4001B1452 /* js 修改html图片大小Tests */,
+				EE8F371A1DAE30F4001B1452 /* js 修改html图片大小UITests */,
+				EE8F36F41DAE30F4001B1452 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE8F36F41DAE30F4001B1452 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F36F31DAE30F4001B1452 /* js 修改html图片大小.app */,
+				EE8F370C1DAE30F4001B1452 /* js 修改html图片大小Tests.xctest */,
+				EE8F37171DAE30F4001B1452 /* js 修改html图片大小UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE8F36F51DAE30F4001B1452 /* js 修改html图片大小 */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F36F91DAE30F4001B1452 /* AppDelegate.h */,
+				EE8F36FA1DAE30F4001B1452 /* AppDelegate.m */,
+				EE8F36FC1DAE30F4001B1452 /* ViewController.h */,
+				EE8F36FD1DAE30F4001B1452 /* ViewController.m */,
+				EE8F36FF1DAE30F4001B1452 /* Main.storyboard */,
+				EE8F37021DAE30F4001B1452 /* Assets.xcassets */,
+				EE8F37041DAE30F4001B1452 /* LaunchScreen.storyboard */,
+				EE8F37071DAE30F4001B1452 /* Info.plist */,
+				EE8F36F61DAE30F4001B1452 /* Supporting Files */,
+			);
+			path = "js 修改html图片大小";
+			sourceTree = "<group>";
+		};
+		EE8F36F61DAE30F4001B1452 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F36F71DAE30F4001B1452 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE8F370F1DAE30F4001B1452 /* js 修改html图片大小Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F37101DAE30F4001B1452 /* js___html____Tests.m */,
+				EE8F37121DAE30F4001B1452 /* Info.plist */,
+			);
+			path = "js 修改html图片大小Tests";
+			sourceTree = "<group>";
+		};
+		EE8F371A1DAE30F4001B1452 /* js 修改html图片大小UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F371B1DAE30F4001B1452 /* js___html____UITests.m */,
+				EE8F371D1DAE30F4001B1452 /* Info.plist */,
+			);
+			path = "js 修改html图片大小UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE8F36F21DAE30F4001B1452 /* js 修改html图片大小 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8F37201DAE30F4001B1452 /* Build configuration list for PBXNativeTarget "js 修改html图片大小" */;
+			buildPhases = (
+				EE8F36EF1DAE30F4001B1452 /* Sources */,
+				EE8F36F01DAE30F4001B1452 /* Frameworks */,
+				EE8F36F11DAE30F4001B1452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "js 修改html图片大小";
+			productName = "js 修改html图片大小";
+			productReference = EE8F36F31DAE30F4001B1452 /* js 修改html图片大小.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE8F370B1DAE30F4001B1452 /* js 修改html图片大小Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8F37231DAE30F4001B1452 /* Build configuration list for PBXNativeTarget "js 修改html图片大小Tests" */;
+			buildPhases = (
+				EE8F37081DAE30F4001B1452 /* Sources */,
+				EE8F37091DAE30F4001B1452 /* Frameworks */,
+				EE8F370A1DAE30F4001B1452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE8F370E1DAE30F4001B1452 /* PBXTargetDependency */,
+			);
+			name = "js 修改html图片大小Tests";
+			productName = "js 修改html图片大小Tests";
+			productReference = EE8F370C1DAE30F4001B1452 /* js 修改html图片大小Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE8F37161DAE30F4001B1452 /* js 修改html图片大小UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8F37261DAE30F4001B1452 /* Build configuration list for PBXNativeTarget "js 修改html图片大小UITests" */;
+			buildPhases = (
+				EE8F37131DAE30F4001B1452 /* Sources */,
+				EE8F37141DAE30F4001B1452 /* Frameworks */,
+				EE8F37151DAE30F4001B1452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE8F37191DAE30F4001B1452 /* PBXTargetDependency */,
+			);
+			name = "js 修改html图片大小UITests";
+			productName = "js 修改html图片大小UITests";
+			productReference = EE8F37171DAE30F4001B1452 /* js 修改html图片大小UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE8F36EB1DAE30F4001B1452 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CHL;
+				TargetAttributes = {
+					EE8F36F21DAE30F4001B1452 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2H4PT9989F;
+					};
+					EE8F370B1DAE30F4001B1452 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2H4PT9989F;
+						TestTargetID = EE8F36F21DAE30F4001B1452;
+					};
+					EE8F37161DAE30F4001B1452 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2H4PT9989F;
+						TestTargetID = EE8F36F21DAE30F4001B1452;
+					};
+				};
+			};
+			buildConfigurationList = EE8F36EE1DAE30F4001B1452 /* Build configuration list for PBXProject "js 修改html图片大小" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE8F36EA1DAE30F4001B1452;
+			productRefGroup = EE8F36F41DAE30F4001B1452 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE8F36F21DAE30F4001B1452 /* js 修改html图片大小 */,
+				EE8F370B1DAE30F4001B1452 /* js 修改html图片大小Tests */,
+				EE8F37161DAE30F4001B1452 /* js 修改html图片大小UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE8F36F11DAE30F4001B1452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8F37061DAE30F4001B1452 /* LaunchScreen.storyboard in Resources */,
+				EE8F37031DAE30F4001B1452 /* Assets.xcassets in Resources */,
+				EE8F37011DAE30F4001B1452 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8F370A1DAE30F4001B1452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8F37151DAE30F4001B1452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE8F36EF1DAE30F4001B1452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8F36FE1DAE30F4001B1452 /* ViewController.m in Sources */,
+				EE8F36FB1DAE30F4001B1452 /* AppDelegate.m in Sources */,
+				EE8F36F81DAE30F4001B1452 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8F37081DAE30F4001B1452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8F37111DAE30F4001B1452 /* js___html____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8F37131DAE30F4001B1452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8F371C1DAE30F4001B1452 /* js___html____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE8F370E1DAE30F4001B1452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8F36F21DAE30F4001B1452 /* js 修改html图片大小 */;
+			targetProxy = EE8F370D1DAE30F4001B1452 /* PBXContainerItemProxy */;
+		};
+		EE8F37191DAE30F4001B1452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8F36F21DAE30F4001B1452 /* js 修改html图片大小 */;
+			targetProxy = EE8F37181DAE30F4001B1452 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE8F36FF1DAE30F4001B1452 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8F37001DAE30F4001B1452 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE8F37041DAE30F4001B1452 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8F37051DAE30F4001B1452 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE8F371E1DAE30F4001B1452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE8F371F1DAE30F4001B1452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE8F37211DAE30F4001B1452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "js 修改html图片大小/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHL.js---html----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE8F37221DAE30F4001B1452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "js 修改html图片大小/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHL.js---html----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE8F37241DAE30F4001B1452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "js 修改html图片大小Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHL.js---html----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/js 修改html图片大小.app/js 修改html图片大小";
+			};
+			name = Debug;
+		};
+		EE8F37251DAE30F4001B1452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "js 修改html图片大小Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHL.js---html----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/js 修改html图片大小.app/js 修改html图片大小";
+			};
+			name = Release;
+		};
+		EE8F37271DAE30F4001B1452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "js 修改html图片大小UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHL.js---html----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "js 修改html图片大小";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EE8F37281DAE30F4001B1452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "js 修改html图片大小UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHL.js---html----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "js 修改html图片大小";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE8F36EE1DAE30F4001B1452 /* Build configuration list for PBXProject "js 修改html图片大小" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8F371E1DAE30F4001B1452 /* Debug */,
+				EE8F371F1DAE30F4001B1452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8F37201DAE30F4001B1452 /* Build configuration list for PBXNativeTarget "js 修改html图片大小" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8F37211DAE30F4001B1452 /* Debug */,
+				EE8F37221DAE30F4001B1452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE8F37231DAE30F4001B1452 /* Build configuration list for PBXNativeTarget "js 修改html图片大小Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8F37241DAE30F4001B1452 /* Debug */,
+				EE8F37251DAE30F4001B1452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE8F37261DAE30F4001B1452 /* Build configuration list for PBXNativeTarget "js 修改html图片大小UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8F37271DAE30F4001B1452 /* Debug */,
+				EE8F37281DAE30F4001B1452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE8F36EB1DAE30F4001B1452 /* Project object */;
+}
